@@ -1,0 +1,29 @@
+.container{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-404 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+  
+  .pokemon-404 h1 {
+    color: #f44336; /* Color rojo */
+    font-size: 36px;
+  }
+  
+  .pokemon-404 p {
+    font-size: 18px;
+    color: #ffffff; /* Color de texto gris oscuro */
+  }
+  
+  .pokemon-404 img {
+    width: 70%;
+    margin-top: 20px;
+  }
+  

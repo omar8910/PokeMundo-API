@@ -1,0 +1,44 @@
+/* Estilos para la lista de Pokémon */
+.mainLista {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Contenedor de los Pokémon */
+.pokemonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 2em; /* Reducido el espacio entre los Pokémon */
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 20px;
+}
+
+/* Estilos para los enlaces */
+.pokemonContainer a {
+  text-decoration: none;
+}
+
+/* Botón para cargar más Pokémon */
+.moreBtn {
+  padding: 1em;
+  border: 2px solid #000000;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.9em; /* Aumentado el tamaño del texto */
+  background-color: #f44336; /* Rojo característico de Pokémon */
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2em;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out; /* Transición suave al pasar el cursor */
+  width: 100%;
+}
+
+.moreBtn:hover {
+  background-color: #d32f2f; /* Rojo más oscuro al pasar el cursor */
+}

@@ -1,0 +1,41 @@
+/* Footer.css */
+
+.footer {
+    background-color: #00000077; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+  }
+  
+  .footer a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    margin: 0 10px; /* Margen entre enlaces */
+  }
+  
+  .footer a:hover {
+    color: #f44336; /* Cambia el color al pasar el ratón sobre los enlaces */
+  }
+  
+  .footer-info {
+    margin-top: 20px; /* Margen superior para el mensaje de derechos de autor */
+  }
+  
+  .footer-info p {
+    font-size: 14px; /* Tamaño de fuente del mensaje de derechos de autor */
+  }
+  
+  .footer-social {
+    margin-top: 20px; /* Margen superior para los iconos de redes sociales */
+  }
+  
+  .footer-social a {
+    color: #fff; /* Color de los iconos de redes sociales */
+    font-size: 20px; /* Tamaño de fuente de los iconos */
+    margin: 0 10px; /* Margen entre iconos */
+  }
+  
+  .footer-social a:hover {
+    color: #f44336; /* Cambia el color al pasar el ratón sobre los iconos de redes sociales */
+  }
+  

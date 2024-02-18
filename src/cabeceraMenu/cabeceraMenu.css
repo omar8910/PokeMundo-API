@@ -1,0 +1,63 @@
+/* cabeceraMenu.css */
+.cabeceraMenu {
+    background-color: #68100a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .cabeceraMenu:hover {
+    background-color: #811a1a;
+  }
+  
+  .cabeceraLogo {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .cabeceraLogo:hover {
+    transform: scale(1.1);
+  }
+  
+  .navCabecera {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navCabecera a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .navCabecera a:hover {
+    color: #ffc107;
+  }
+  
+  .fa-user,
+  .fa-right-from-bracket {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  #navLink {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    transition: all 0.3s ease;
+  }
+
+  #navLink:hover {
+    color: #ffc107;
+    transform: scale(0.9);
+  }
+
+  

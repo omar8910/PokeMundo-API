@@ -1,0 +1,86 @@
+/* LandingPage.css */
+body{
+ background-image: none !important;
+}
+
+.landing-page {
+  text-align: center;
+}
+
+.slider-container {
+  margin-bottom: 50px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.explore-btn:hover {
+  background-color: #d32f2f;
+}
+
+.imagenSlider {
+  width: 100%;
+  height: 675px;
+  filter: brightness(80%);
+  object-fit: cover;
+}
+
+.contenidoSlider {
+  background-color: rgba(0, 0, 0, 0.485);
+  /* Fondo semi-transparente */
+  color: white;
+  /* Texto en blanco */
+  padding: 20px;
+  /* Espaciado interno */
+  border-radius: 10px;
+  /* Bordes redondeados */
+}
+
+.contenidoSlider h3 {
+  font-size: 24px;
+  /* Tamaño de fuente del título */
+}
+
+.contenidoSlider p {
+  font-size: 18px;
+  /* Tamaño de fuente del párrafo */
+  margin-bottom: 0;
+  /* Elimina el margen inferior para evitar espacios adicionales */
+}
+
+.contentButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px
+}
+
+.mensajeImportante{
+  font-size: 20px;
+  color: #f44336;
+  text-shadow: 2px 2px 4px #000000;
+}

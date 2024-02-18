@@ -1,0 +1,130 @@
+/* Estilos generales */
+.inicioSesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+/* Formulario */
+.inicioSesion form {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 50%;
+    height: 60%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Título */
+.inicioSesion h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Campos de entrada */
+.inicioSesion input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #68100a;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s ease;
+}
+
+.inicioSesion input:focus {
+    border-color: #ba1d1b;
+}
+
+/* Botones */
+.inicioSesion button {
+    width: 45%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #262323;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inicioSesion button:hover {
+    background-color: #68100a;
+}
+
+/* Enlace de registro */
+.inicioSesion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.inicioSesion a:hover {
+    color: #c03126;
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+
+.mensajeExito{
+    color: #99ff00;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.mensajeError{
+    color: #ff0000;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.google {
+    /* Ajusta el color y el tamaño del ícono */
+    color: #c7c7c7; /* Color rojo de Google */
+    font-size: 2.5em; /* Tamaño del ícono */
+    margin-right: 8px; /* Espacio a la derecha del ícono */
+    margin-left: 20px;
+    cursor: pointer; /* Cambia el cursor al puntero al pasar sobre el ícono */  
+    transition: all 0.3s ease;
+    padding: 15px;
+    background: linear-gradient(to left, #000000,#434343);
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  /* Estilos adicionales para hover */
+  .google:hover {
+    opacity: 0.8; /* Reduce la opacidad al pasar el cursor sobre el ícono */
+    color: #a8322c;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.753);
+
+    
+  }

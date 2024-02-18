@@ -1,0 +1,22 @@
+/* Estilos del botón de scroll */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f44336;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+
+  }
+  
+  .scroll-to-top i {
+    font-size: 24px;
+
+  }

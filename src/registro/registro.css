@@ -1,0 +1,23 @@
+/* registro.css */
+
+.google {
+    /* Ajusta el color y el tamaño del ícono */
+    color: #c7c7c7; /* Color rojo de Google */
+    font-size: 2.5em; /* Tamaño del ícono */
+    margin-right: 8px; /* Espacio a la derecha del ícono */
+    margin-left: 20px;
+    cursor: pointer; /* Cambia el cursor al puntero al pasar sobre el ícono */  
+    transition: all 0.3s ease;
+    padding: 15px;
+    background: linear-gradient(to left, #000000,#434343);
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  /* Estilos adicionales para hover */
+  .google:hover {
+    opacity: 0.8; /* Reduce la opacidad al pasar el cursor sobre el ícono */
+    color: #a8322c;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.753);
+  }
